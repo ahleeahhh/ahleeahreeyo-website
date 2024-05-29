@@ -1,0 +1,282 @@
+<!-- HTML -------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<style>
+    /* CSS *************************************/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    body{
+        background-image: url(C:\Users\ArabelZ\Desktop\labexamprog4\Portfolio\bg.png);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    nav a img{
+        height: 100px;
+        width: 300px;
+    }
+    .aboutme{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 2rem 9%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    .header a{
+        font-size: 3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: #d5a3b5;
+    }
+    .navbar a{
+        justify-content: space-evenly;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: right;
+        text-decoration: none;
+        cursor: pointer;
+        color: #a94064;
+        display: inline-block;
+        margin-left: 3rem;
+    }
+    span{
+        color: #a94064;
+    }
+    .section{
+        min-height: 100vh;
+        padding: 10rem 9% 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Home{
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+    .about{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .about-image{
+        flex: 1;
+        margin-right: 40px;
+    }
+    .about-image img{
+        margin-left: 0%;
+        border-radius: 6%;
+        width: 600px;
+        height: 450px;
+        display: block;
+        transition: 0.5s ease;
+        box-shadow: 0px 4px 25px 0px rgba(143, 99, 140, 0.792);
+    }
+    .about-content{
+        flex: 1;    
+    }
+    .about-content h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #d5a3b5;  
+    }
+    .about-content p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #d5a3b5;
+    }
+    .more-content{
+        width: 90%;
+        margin: 55px;
+        padding: 10px 20px;
+    }
+    .more-content h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #a94064;  
+    }
+    .more-content p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #d5a3b5;
+    }
+    .moremore-content{
+        width: 90%;
+        margin: 20px;
+        padding: 10px 20px;
+    }
+    .moremore-content h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 3%;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #a94064;
+    }
+    .moremore-content p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 3%;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #d5a3b5;
+    }
+    .footer{
+        background-color: palevioletred;
+        color: white;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: var(--font-semi);
+        padding: 2rem 0;
+        width: 100%; 
+        position: relative;
+        bottom: 0;
+    }
+    .container::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .footer-title{
+        font-size: 2rem;
+        margin-bottom: var(--mb-4);
+    }
+    .footer-sociallinks {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-sociallinks li{
+        list-style: none;
+        margin-bottom: var(--mb-4);
+        margin-right: 10px;
+    }
+    .footer-sociallinks img{
+        border-radius: 15%;
+        width: 50px;
+        height: 50px;
+    }
+</style>
+<body>
+    <div class="aboutme">
+        <header class="header">
+            <a href="#contact" class="Logo">About Me</a>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#aboutme" class="active">About</a>
+                <a href="C:\Users\ArabelZ\Desktop\labexamprog4\Portfolio\websitefiles\portfolio.html" class="active">Portfolio</a>
+                <a href="#contact" class="active">Contact</a>
+            </nav>
+        </header>
+    </div>
+
+    <section class="Home" id="home">   
+        <div class="container">
+            <section class="about">
+                <div class="about-image">
+                    <img src="C:\Users\ArabelZ\Desktop\labexamprog4\Portfolio\meee_3.jpg">
+                </div>
+                <div class="about-content">
+                    <h1>I'm <span>Ahleeah Reeyo L. Alduñar</span></h1>
+                    <p>Hi! You can call me by my first name but never the second one okay?, I'm 19 years old and currently studying Bachelor 
+                        of Technical Vocational Teacher Education Major in Computer Programming in Technological University of the Philippines 
+                        Cavite Campus.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="AboutMe" id="aboutme">
+        <div class="more-content">
+            <h2>My Experiences/Background</h2>
+            <p>My experience with learning programming has been a true test of my patience and persistence. I have faced challenges with 
+                understanding complex logic and algorithms, which required me to have unwavering patience every step of the way. Despite 
+                moments of frustration and setbacks, I have persevered, knowing that becoming an expert takes time and commitment. 
+                By practicing, experimenting, and seeking help when needed, I have slowly uncovered the secrets of programming logic. 
+                The feeling of successfully turning ideas into working code after spending hours debugging and refining is incredibly rewarding, 
+                showing how far I have come in my learning journey. Although it has been difficult at times, the satisfaction and knowledge 
+                gained along the way make it all worth it, motivating me to tackle any obstacles that come my way.</p>
+        </div>
+        <div class="moremore-content">
+            <h2>Accomplishments</h2>
+            <p>I am proud to have made the dean's list, which shows my dedication, hard work, and commitment to excellence in my studies. 
+                Building strong friendships is also important to me, as each one is based on shared experiences and genuine connections. 
+                I understand that personal and academic growth is a journey that never ends, and I tackle every challenge with excitement and 
+                resolve. While reaching milestones is important, I believe that the true reward lies in the constant pursuit of self-improvement.</p>
+        </div>
+    </section>
+
+    <section class="Contact" id="contact">
+        <footer class="footer">
+            <p class="footer-title">Ahleeah Reeyo</p>
+            <p>For more info, contact me here!</p>
+            <br>
+            <div class="footer-sociallinks">
+                <li><a href="https://www.facebook.com/ara.aldunar"><img src="C:\Users\ArabelZ\Desktop\labexamprog4\Portfolio\n_fb.jpg" alt="Facebook Logo"></a></li>
+                <li><a href="https://www.instagram.com/ahleeaah/"><img src="C:\Users\ArabelZ\Desktop\labexamprog4\Portfolio\n_ig.jpg" alt="Instagram Logo"></a></li>
+                <li><a href="mailto:ahleeahreeyo.aldunar@gsfe.tupcavite.edu.ph"><img src="C:\Users\ArabelZ\Desktop\labexamprog4\Portfolio\n_gm.jpg" alt="Gmail Logo"></a></li>
+            </div>
+        </footer>
+    </section>
+    <script>
+        // JavaScript //////////////////////////////////////////////////////
+        document.addEventListener("DOMContentLoaded", function() {
+            let sections = document.querySelectorAll('section');
+            let navLinks = document.querySelectorAll('header nav a');
+    
+            function makeNavLinkActive(id) {
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                });
+                let activeLink = document.querySelector(`header nav a[href="#${id}"]`);
+                if (activeLink) { // Check if the element exists
+                    activeLink.classList.add('active');
+                }
+            }
+    
+            window.addEventListener('scroll', function() {
+                let fromTop = window.scrollY + 200;
+    
+                sections.forEach(section => {
+                    let sectionTop = section.offsetTop;
+                    let sectionHeight = section.clientHeight;
+                    let sectionId = section.getAttribute('id');
+    
+                    if (fromTop >= sectionTop && fromTop <= sectionTop + sectionHeight) {
+                        makeNavLinkActive(sectionId);
+                    }
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
